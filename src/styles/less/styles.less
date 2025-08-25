@@ -206,9 +206,11 @@ section {
         list-style: none;
 
         .list-item {
-          margin: 0 20px;
           transition: all .5s;
-
+          width: 110px;
+          text-align: center;
+          justify-content: center;
+          display: flex;
           a {
             .montserrat-white-common();
             text-decoration: none;
@@ -221,6 +223,7 @@ section {
               border-bottom: 2px solid @white-text;
               font-size: 18px;
               letter-spacing: 1.4px;
+              margin: unset;
             }
           }
 
